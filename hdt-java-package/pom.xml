@@ -42,6 +42,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <!-- The configuration of the plugin -->
                 <configuration>
+					<tarLongFileMode>posix</tarLongFileMode>
                     <!-- Specifies the configuration file of the assembly plugin -->
                     <descriptors>
                         <descriptor>src/main/assembly/assembly.xml</descriptor>
